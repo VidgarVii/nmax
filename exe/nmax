@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "nmax"
+
+string = $stdin.read
+count = ARGV[0].to_i
+
+Nmax.call(string, count)
